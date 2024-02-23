@@ -10,19 +10,19 @@
 
 
 //TODO: Ось воно
-// const clickMe = document.querySelector(".js-click");
-// const box = document.querySelector(".js-box");
+const clickMe = document.querySelector(".js-click");
+const box = document.querySelector(".js-box");
 
-// clickMe.addEventListener("click", handleClick);
+clickMe.addEventListener("click", handleClick);
 
-// let step = 0;
+let step = 0;
 
-// function handleClick() {
-//     console.log("Квадрат переміщується на 50 пікселів донизу і на 50 пікселів праворуч");
-//     step += 50;
+function handleClick() {
+    console.log("Квадрат переміщується на 50 пікселів донизу і на 50 пікселів праворуч");
+    step += 50;
 
-//     box.style.marginTop = `${step}px`;
-//     box.style.marginLeft = `${step}px`;
+    box.style.marginTop = `${step}px`;
+    box.style.marginLeft = `${step}px`;
     
 // }
 //TODO: Це кінець цього завдання
@@ -30,10 +30,10 @@
 
 
 //TODO: Просто гра з кодом
-document.addEventListener("keydown", handleKeyDown)
+// document.addEventListener("keydown", handleKeyDown)
 
-function handleKeyDown(event) {
-console.log(event);
+// function handleKeyDown(event) {
+// console.log(event);
 
 // if(event.code === "KeyW") {
 //     console.log("You have just pressed the 'W' button");
