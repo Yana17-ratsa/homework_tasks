@@ -30,21 +30,19 @@
 
 
 //TODO: Просто гра з кодом
-// document.addEventListener("keydown", handleKeyDown)
+document.addEventListener("keydown", handleKeyDown)
 
-// function handleKeyDown(event) {
-// // console.log(event);
+function handleKeyDown(event) {
+console.log(event);
 
 // if(event.code === "KeyW") {
 //     console.log("You have just pressed the 'W' button");
 // } else {
 //     console.log("You didn't press the  'W' button");
 // }
-// }
+}
 //TODO: Закінчення гри
 
 
-
-//TODO: Завдання на заборону копівання
 
 
