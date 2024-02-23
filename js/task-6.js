@@ -24,3 +24,5 @@ function handleInput(event) {
 
     return spanName
 }
+
+//TODO: Ready! Yay!
