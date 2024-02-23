@@ -8,18 +8,43 @@
  */
 
 
-const clickMe = document.querySelector(".js-click");
-const box = document.querySelector(".js-box");
 
-clickMe.addEventListener("click", handleClick);
+//TODO: Ось воно
+// const clickMe = document.querySelector(".js-click");
+// const box = document.querySelector(".js-box");
 
-let step = 0;
+// clickMe.addEventListener("click", handleClick);
 
-function handleClick() {
-    console.log("Квадрат переміщується на 50 пікселів донизу і на 50 пікселів праворуч");
-    step += 50;
+// let step = 0;
 
-    box.style.marginTop = `${step}px`;
-    box.style.marginLeft = `${step}px`;
+// function handleClick() {
+//     console.log("Квадрат переміщується на 50 пікселів донизу і на 50 пікселів праворуч");
+//     step += 50;
+
+//     box.style.marginTop = `${step}px`;
+//     box.style.marginLeft = `${step}px`;
     
-}
+// }
+//TODO: Це кінець цього завдання
+
+
+
+//TODO: Просто гра з кодом
+// document.addEventListener("keydown", handleKeyDown)
+
+// function handleKeyDown(event) {
+// // console.log(event);
+
+// if(event.code === "KeyW") {
+//     console.log("You have just pressed the 'W' button");
+// } else {
+//     console.log("You didn't press the  'W' button");
+// }
+// }
+//TODO: Закінчення гри
+
+
+
+//TODO: Завдання на заборону копівання
+
+
