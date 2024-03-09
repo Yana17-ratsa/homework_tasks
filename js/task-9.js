@@ -21,55 +21,54 @@
 // 3. Усі елементи повинні мати випадковий колір фону. Використовуй готову функцію getRandomHexColor() для отримання випадкового кольору.
 
 
-console.log("hi");
-const inputNumber = document.querySelector("input");
-const createBtn = document.querySelector("[data-create]");
-const destroyBtn = document.querySelector("[data-destroy]");
-const divParent = document.querySelector("div#boxes");
+// console.log("hi");
+// const inputNumber = document.querySelector("input");
+// const createBtn = document.querySelector("[data-create]");
+// const destroyBtn = document.querySelector("[data-destroy]");
+// const divParent = document.querySelector("div#boxes");
 
-divParent.style.display = "flex";
-divParent.style.gap = "14px";
-divParent.style.flexWrap = "wrap";
+// divParent.style.display = "flex";
+// divParent.style.gap = "14px";
+// divParent.style.flexWrap = "wrap";
     
 
-let numberOfBoxes;
+// let numberOfBoxes;
 
-const clickCreateHandle = () => {
-    numberOfBoxes = parseInt(inputNumber.value);
+// const clickCreateHandle = () => {
+//     numberOfBoxes = parseInt(inputNumber.value);
 
-    if (numberOfBoxes > 0 && numberOfBoxes < 100) {
-        createBoxes(numberOfBoxes);
-    }
-}
-
-
-
-function clickDestroyHandle() {
-    divParent.innerHTML = "";
-}
-
-function createBoxes(amount) {
-    let markup = "";
-
-    for (let i = 0, size = 30; i < amount; i += 1, size += 10) {
-
-        markup += `<div class="js-div-daughter" style ="background-color: ${getRandomHexColor()}; width: ${size}px; height: ${size}px"></div>`;
-    }
-    divParent.insertAdjacentHTML("beforeend", markup);
-
-    console.log();
-}
+//     if (numberOfBoxes > 0 && numberOfBoxes < 100) {
+//         createBoxes(numberOfBoxes);
+//     }
+// }
 
 
-function getRandomHexColor() {
-    return `#${Math.floor(Math.random() * 16777215)
-      .toString(16)
-      .padStart(6, 0)}`;
-}
+
+// function clickDestroyHandle() {
+//     divParent.innerHTML = "";
+// }
+
+// function createBoxes(amount) {
+//     let markup = "";
+
+//     for (let i = 0, size = 30; i < amount; i += 1, size += 10) {
+
+//         markup += `<div class="js-div-daughter" style ="background-color: ${getRandomHexColor()}; width: ${size}px; height: ${size}px"></div>`;
+//     }
+//     divParent.insertAdjacentHTML("beforeend", markup);
+
+//     console.log();
+// }
+
+
+// function getRandomHexColor() {
+//     return `#${Math.floor(Math.random() * 16777215)
+//       .toString(16)
+//       .padStart(6, 0)}`;
+// }
   
-createBtn.addEventListener("click", clickCreateHandle);
-destroyBtn.addEventListener("click", clickDestroyHandle);
-
+// createBtn.addEventListener("click", clickCreateHandle);
+// destroyBtn.addEventListener("click", clickDestroyHandle);
 
 
 
